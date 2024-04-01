@@ -4,7 +4,11 @@
  let total = a + b;
  let q1Browser = document.getElementById('q1').innerHTML = "sum is" + total;
 
- //(Q2) aa = 10; bb = 20; cc = 30; swibe the value
+ //(Q2) create a variable and assign your name then show your name in the webpage
+ let names = "adil ahamed";
+ let nameInBrowser = document.getElementById('q2').innerHTML = "My name is" + names;
+
+ //(Q3) aa = 10; bb = 20; cc = 30; swibe the value
  // 30,  10, 20
  let aa = 10;
  let bb = 20;
@@ -18,7 +22,7 @@
 
 console.log(aa, bb, cc);
 
-//(Q3) find the Largest number and Smallest number 
+//(Q4) find the Largest number and Smallest number 
 let num1 = 50;
 let num2 = 30;
 
@@ -28,7 +32,7 @@ if(num1 > num2 ){
     console.log("Smallest number is" + num2);
 }
 
-//(Q4) find the value is a even number
+//(Q5) find the value is a even number  
 let number1 = 50;
 
 if(number1 % 2==0){
